@@ -121,7 +121,6 @@ h1, h2, h3, p, strong, small { overflow-wrap: break-word; }
     inset 0 1px 0 rgba(255, 255, 255, 0.95),
     inset 0 -1px 0 rgba(255, 255, 255, 0.3),
     inset 0 0 22px rgba(255, 255, 255, 0.22),
-    0 0 0 1px var(--line),
     0 18px 44px -12px rgba(31, 27, 30, 0.26);
   -webkit-backdrop-filter: blur(26px) saturate(1.8);
   backdrop-filter: blur(26px) saturate(1.8);
@@ -377,8 +376,6 @@ svg .fill { fill: currentColor; stroke: none; }
   object-position: center top;
   border-radius: var(--r-lg);
   border: 1px solid rgba(255, 255, 255, 0.8);
-  outline: 1.5px solid var(--charcoal);
-  outline-offset: 7px;
   box-shadow: 0 40px 70px -30px rgba(31, 27, 30, 0.55);
 }
 
@@ -480,7 +477,7 @@ svg .fill { fill: currentColor; stroke: none; }
   font-style: italic;
   color: var(--charcoal);
   background: rgba(255, 255, 255, 0.6);
-  border: 1.5px solid var(--charcoal);
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 .step p {
@@ -520,7 +517,7 @@ svg .fill { fill: currentColor; stroke: none; }
   object-fit: cover;
   object-position: 46% 30%;
   border-radius: var(--r-lg);
-  border: 1.5px solid var(--charcoal);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 40px 70px -34px rgba(31, 27, 30, 0.55);
 }
 
