@@ -1,5 +1,7 @@
-# Dr. Ayala
+# Dr. Donna Ayala
 
-Static start page. Open `index.html`, or deploy the folder on Vercel.
+Static profile site for Dr. Donna Ayala, family physician at Amarillo Family Physicians. Live at https://dr-ayala.vercel.app.
 
-Chapters live in `index.html`. Add one by copying a `section.chapter` and a link in the navigation and the index.
+Everything is in `index.html`, `css/styles.css`, and `js/main.js`. Photos are in `images`, the Fraunces font files are in `fonts`. Deploy the folder with `vercel --prod`.
+
+Biography facts come only from her public practice profile at https://www.amarillofp.com/doctors/dr-donna-ayala.

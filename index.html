@@ -3,154 +3,277 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Donna Ayala, M.D.</title>
+    <title>Dr. Donna Ayala, Family Physician in Amarillo, Texas</title>
     <meta
       name="description"
-      content="Dr. Donna Ayala is a family physician at Amarillo Family Physicians. Practice, Instagram, Facebook, and Ready. Set. Monday."
+      content="Dr. Donna Ayala is a board certified family physician at Amarillo Family Physicians in Amarillo, Texas. Book with her, follow along, and watch Ready. Set. Monday."
     />
-    <meta name="theme-color" content="#e7eef6" />
+    <meta name="theme-color" content="#f6ece6" />
+    <meta property="og:title" content="Dr. Donna Ayala, Family Physician" />
+    <meta property="og:description" content="Board certified family physician at Amarillo Family Physicians in Amarillo, Texas." />
+    <meta property="og:image" content="https://dr-ayala.vercel.app/images/portrait.jpg" />
+    <meta property="og:type" content="profile" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/css/styles.css?v=sections" />
+    <link rel="preload" href="/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/styles.css?v=glass2" />
   </head>
   <body>
-    <a class="skip" href="#about">Skip to about</a>
+    <a class="skip" href="#story">Skip to her story</a>
 
-    <header class="nav">
-      <a class="brand" href="#about">Donna Ayala, M.D.</a>
-      <nav aria-label="On this page">
-        <a href="#about">About</a>
+    <div class="aura" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+      <span class="orb orb-d"></span>
+    </div>
+
+    <header class="nav glass" data-nav>
+      <a class="brand" href="#top">Dr. Donna Ayala</a>
+      <nav class="nav-links" aria-label="On this page">
+        <a href="#story">Story</a>
         <a href="#practice">Practice</a>
         <a href="#show">Show</a>
-        <a href="#follow">Follow</a>
+        <a href="#connect">Connect</a>
       </nav>
+      <a class="nav-cta" href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">Book with me</a>
     </header>
 
-    <main>
-      <section class="band band-sky" id="about">
-        <div class="wrap hero">
+    <main id="top">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Family physician <span class="dot" aria-hidden="true"></span> Amarillo, Texas</p>
+          <h1 id="hero-title">Dr. Donna <em>Ayala</em></h1>
+          <p class="lede">
+            Board certified family physician at Amarillo Family Physicians.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">
+              <span>Book with me</span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
+            </a>
+            <ul class="quick" aria-label="Follow Dr. Ayala">
+              <li>
+                <a class="round glass" href="https://www.instagram.com/dr.donna.ayala/" rel="noopener noreferrer" target="_blank" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5" /><circle cx="12" cy="12" r="3.6" /><circle class="fill" cx="16.6" cy="7.4" r="0.9" /></svg>
+                </a>
+              </li>
+              <li>
+                <a class="round glass" href="https://www.facebook.com/dlw1991" rel="noopener noreferrer" target="_blank" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M13.6 20v-6.6h2.2l.4-2.7h-2.6V9c0-.8.3-1.3 1.4-1.3h1.3V5.3c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v1.9H8.4v2.7h2.3V20h2.9Z" /></svg>
+                </a>
+              </li>
+              <li>
+                <a class="round glass" href="https://www.youtube.com/@readysetmonday" rel="noopener noreferrer" target="_blank" aria-label="Ready. Set. Monday. on YouTube">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M6 11a6 6 0 0 0 12 0M12 17v4M8.5 21h7" /></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <figure class="hero-figure">
           <img
-            class="hero-photo"
             src="/images/portrait.jpg"
             width="1400"
             height="1430"
-            alt="Dr. Donna Ayala."
+            alt="Dr. Donna Ayala smiling in her white coat."
+            fetchpriority="high"
           />
-          <div class="glass copy">
-            <p class="eyebrow">Family physician</p>
-            <h1>Donna Ayala, M.D.</h1>
-            <p class="lede">Amarillo Family Physicians</p>
-            <div class="bio">
-              <p>
-                Dr. Donna Ayala is a board-certified family physician at Amarillo
-                Family Physicians. She was born and raised in Johannesburg, South
-                Africa, and moved to San Antonio, Texas, in 2005, where she finished
-                high school. She earned a B.S. in English from the University of
-                Texas at San Antonio, with Highest Honors, Magna Cum Laude, and was
-                a personal trainer during those years.
-              </p>
-              <p>
-                She completed medical school at Texas Tech University Health Sciences
-                Center in Lubbock and her residency at Texas Tech in Amarillo. During
-                that residency she decided to make Amarillo home. She and her husband,
-                Robert, have two daughters.
-              </p>
-              <p class="source">
-                From her
-                <a href="https://www.amarillofp.com/doctors/dr-donna-ayala" rel="noopener noreferrer" target="_blank">practice profile</a>.
-                The practice names the American Board of Family Medicine.
-              </p>
-            </div>
-          </div>
-        </div>
+          <figcaption class="glass badge">
+            <span class="badge-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>
+            </span>
+            <span class="badge-copy">
+              <strong>Board certified</strong>
+              <small>American Board of Family Medicine</small>
+            </span>
+          </figcaption>
+        </figure>
       </section>
 
-      <section class="band band-rose" id="practice">
-        <div class="wrap split">
+      <section class="story wrap" id="story" aria-labelledby="story-title">
+        <div class="story-head">
+          <p class="eyebrow">Her story</p>
+          <h2 id="story-title">From Johannesburg to <em>Amarillo.</em></h2>
+          <p class="body-lg">
+            Dr. Donna Ayala is a board certified family physician at Amarillo
+            Family Physicians. She came to Amarillo for residency and decided to
+            make it home.
+          </p>
+          <p class="source">
+            Details from her
+            <a href="https://www.amarillofp.com/doctors/dr-donna-ayala" rel="noopener noreferrer" target="_blank">practice profile</a>.
+          </p>
+        </div>
+
+        <ol class="path">
+          <li class="glass step" data-reveal>
+            <span class="step-n" aria-hidden="true">01</span>
+            <div>
+              <h3>Johannesburg, South Africa</h3>
+              <p>Born and raised.</p>
+            </div>
+          </li>
+          <li class="glass step" data-reveal>
+            <span class="step-n" aria-hidden="true">02</span>
+            <div>
+              <h3>San Antonio, Texas</h3>
+              <p>She moved to Texas in 2005 and finished high school in San Antonio.</p>
+            </div>
+          </li>
+          <li class="glass step" data-reveal>
+            <span class="step-n" aria-hidden="true">03</span>
+            <div>
+              <h3>University of Texas at San Antonio</h3>
+              <p>
+                B.S. in English, with Highest Honors, Magna Cum Laude. She was a
+                personal trainer during those years.
+              </p>
+            </div>
+          </li>
+          <li class="glass step" data-reveal>
+            <span class="step-n" aria-hidden="true">04</span>
+            <div>
+              <h3>Lubbock, Texas</h3>
+              <p>Medical school at Texas Tech University Health Sciences Center School of Medicine.</p>
+            </div>
+          </li>
+          <li class="glass step" data-reveal>
+            <span class="step-n" aria-hidden="true">05</span>
+            <div>
+              <h3>Amarillo, Texas</h3>
+              <p>Residency at Texas Tech in Amarillo, the city she chose to call home.</p>
+            </div>
+          </li>
+          <li class="glass step step-home" data-reveal>
+            <span class="step-n" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.6A4 4 0 0 1 12 8a4 4 0 0 1 7 2.4C19 15.6 12 20 12 20Z" /></svg>
+            </span>
+            <div>
+              <h3>At home</h3>
+              <p>She and her husband, Robert, have two daughters.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="practice wrap" id="practice" aria-labelledby="practice-title">
+        <figure class="practice-figure">
           <img
-            class="frame"
             src="/images/practice.jpg"
             width="1800"
             height="1070"
-            alt="Dr. Donna Ayala in the Amarillo Family Physicians hallway."
+            loading="lazy"
+            alt="Dr. Donna Ayala in navy scrubs in the hallway at Amarillo Family Physicians."
           />
-          <div class="glass">
-            <p class="eyebrow">Practice</p>
-            <h2>Amarillo Family Physicians</h2>
-            <p>The clinic where she is listed as a family physician.</p>
-            <a class="glass-btn" href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">
-              <span>Book with me</span>
-              <span class="chev" aria-hidden="true"></span>
-            </a>
-          </div>
+        </figure>
+        <div class="glass practice-card">
+          <p class="eyebrow">The practice</p>
+          <h2 id="practice-title">Amarillo Family <em>Physicians</em></h2>
+          <p>Dr. Ayala practices family medicine here in Amarillo, Texas.</p>
+          <a class="btn btn-primary" href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">
+            <span>Book with me</span>
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
+          </a>
         </div>
       </section>
 
-      <section class="band band-ink" id="show">
-        <div class="wrap">
-          <a class="show-poster" href="https://www.youtube.com/@readysetmonday" rel="noopener noreferrer" target="_blank">
+      <section class="show wrap" id="show" aria-labelledby="show-title">
+        <div class="show-panel">
+          <div class="show-copy">
+            <p class="eyebrow">The show</p>
+            <h2 id="show-title">Ready. Set. <em>Monday.</em></h2>
+            <p>Watch Dr. Ayala on the Ready. Set. Monday. channel on YouTube.</p>
+          </div>
+          <a class="show-card" href="https://www.youtube.com/@readysetmonday" rel="noopener noreferrer" target="_blank">
             <img
               src="/images/show.jpg"
               width="1194"
               height="1174"
-              alt="Dr. Donna Ayala during a Ready. Set. Monday. recording."
+              loading="lazy"
+              alt="Dr. Donna Ayala wearing earbuds during a Ready. Set. Monday. recording."
             />
-            <span class="show-glass">
+            <span class="show-bar glass-dark">
               <span class="mic" aria-hidden="true">
-                <svg viewBox="0 0 24 24">
-                  <rect x="9" y="3" width="6" height="11" rx="3"></rect>
-                  <path d="M6.5 11a5.5 5.5 0 0 0 11 0M12 16.5V20M8.5 20h7"></path>
-                </svg>
+                <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M6 11a6 6 0 0 0 12 0M12 17v4M8.5 21h7" /></svg>
                 <span class="mic-ring"></span>
               </span>
-              <span class="show-copy">
-                <small>YouTube</small>
+              <span class="show-bar-copy">
                 <strong>Ready. Set. Monday.</strong>
+                <small>Watch on YouTube</small>
               </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
             </span>
           </a>
         </div>
       </section>
 
-      <section class="band band-lilac" id="follow">
-        <div class="wrap">
-          <div class="glass intro-line">
-            <p class="eyebrow">Follow</p>
-            <h2>Her public profiles</h2>
-          </div>
-          <div class="two">
-            <a class="glass link-card" href="https://www.instagram.com/dr.donna.ayala/" rel="noopener noreferrer" target="_blank">
-              <span class="mark mark-ig" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="4"></rect><circle cx="12" cy="12" r="3.1"></circle><circle cx="16.2" cy="7.8" r="0.7" fill="currentColor" stroke="none"></circle></svg>
+      <section class="connect wrap" id="connect" aria-labelledby="connect-title">
+        <div class="connect-head">
+          <p class="eyebrow">Connect</p>
+          <h2 id="connect-title">Find her <em>here.</em></h2>
+        </div>
+        <ul class="links">
+          <li>
+            <a class="glass link link-book" href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">
+              <span class="tile tile-book" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="3" /><path d="M8 3.5v4M16 3.5v4M4 10.5h16" /></svg>
+              </span>
+              <span class="link-copy">
+                <strong>Book with me</strong>
+                <small>Amarillo Family Physicians</small>
+              </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
+            </a>
+          </li>
+          <li>
+            <a class="glass link" href="https://www.youtube.com/@readysetmonday" rel="noopener noreferrer" target="_blank">
+              <span class="tile tile-show" aria-hidden="true">
+                <img src="/images/show.jpg" width="1194" height="1174" loading="lazy" alt="" />
+                <span class="tile-mic">
+                  <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M6 11a6 6 0 0 0 12 0M12 17v4M8.5 21h7" /></svg>
+                </span>
+              </span>
+              <span class="link-copy">
+                <strong>Ready. Set. Monday.</strong>
+                <small>The show on YouTube</small>
+              </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
+            </a>
+          </li>
+          <li>
+            <a class="glass link" href="https://www.instagram.com/dr.donna.ayala/" rel="noopener noreferrer" target="_blank">
+              <span class="tile tile-ig" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5" /><circle cx="12" cy="12" r="3.6" /><circle class="fill" cx="16.6" cy="7.4" r="0.9" /></svg>
               </span>
               <span class="link-copy">
                 <strong>Instagram</strong>
                 <small>@dr.donna.ayala</small>
               </span>
-              <span class="chev" aria-hidden="true"></span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
             </a>
-            <a class="glass link-card" href="https://www.facebook.com/dlw1991" rel="noopener noreferrer" target="_blank">
-              <span class="mark mark-fb" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M14 19v-5.2h1.8l.3-2.1H14V10.2c0-.6.2-1 1.1-1H16V7.2c-.2 0-.9-.1-1.7-.1-1.7 0-2.8 1-2.8 2.9v1.6H9.4v2.1h2.1V19H14Z" fill="currentColor" stroke="none"></path></svg>
+          </li>
+          <li>
+            <a class="glass link" href="https://www.facebook.com/dlw1991" rel="noopener noreferrer" target="_blank">
+              <span class="tile tile-fb" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path class="fill" d="M13.6 20v-6.6h2.2l.4-2.7h-2.6V9c0-.8.3-1.3 1.4-1.3h1.3V5.3c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v1.9H8.4v2.7h2.3V20h2.9Z" /></svg>
               </span>
               <span class="link-copy">
                 <strong>Facebook</strong>
-                <small>Donna Ayala</small>
+                <small>Dr. Donna Ayala</small>
               </span>
-              <span class="chev" aria-hidden="true"></span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
             </a>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </main>
 
-    <footer class="foot">
-      <p>Donna Ayala, M.D.</p>
-      <nav aria-label="Profiles">
-        <a href="https://www.amarillofp.com/" rel="noopener noreferrer" target="_blank">Book with me</a>
-        <a href="https://www.instagram.com/dr.donna.ayala/" rel="noopener noreferrer" target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/dlw1991" rel="noopener noreferrer" target="_blank">Facebook</a>
-        <a href="https://www.youtube.com/@readysetmonday" rel="noopener noreferrer" target="_blank">Show</a>
-      </nav>
+    <footer class="foot wrap">
+      <p class="foot-name">Dr. Donna Ayala</p>
+      <p class="foot-note">Family physician at Amarillo Family Physicians, Amarillo, Texas.</p>
     </footer>
+
+    <script src="/js/main.js?v=glass2" defer></script>
   </body>
 </html>
