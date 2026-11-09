@@ -369,6 +369,53 @@ h1 {
   font-size: 1.05rem;
 }
 
+.chapter-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 36rem;
+  border-top: 1px solid var(--line-strong);
+}
+
+.chapter-ink .chapter-links {
+  border-top-color: var(--line-inverse);
+}
+
+.chapter-links a {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: baseline;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--line-strong);
+  text-decoration: none;
+}
+
+.chapter-ink .chapter-links a {
+  border-bottom-color: var(--line-inverse);
+}
+
+.chapter-links a span:first-child {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.chapter-show .chapter-links a span:first-child {
+  color: var(--stone);
+}
+
+.chapter-ink .chapter-links a span:first-child {
+  color: rgba(245, 243, 239, 0.66);
+}
+
+.chapter-links a:hover span:nth-child(2) {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 560;
+}
+
 .connect {
   padding: clamp(4.5rem, 10vw, 8rem) var(--gutter) clamp(3rem, 6vw, 5rem);
 }
@@ -459,6 +506,12 @@ h1 {
   font-size: 0.78rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
 }
 
 .footer-bottom a {
