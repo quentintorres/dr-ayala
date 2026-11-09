@@ -44,3 +44,23 @@ if ("IntersectionObserver" in window) {
     document.querySelectorAll("[data-reveal]").forEach((el) => reveal.observe(el));
   }
 }
+
+const player = document.querySelector("[data-player]");
+
+if (player) {
+  player.addEventListener("click", (event) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+    if (player.classList.contains("is-playing")) return;
+    event.preventDefault();
+    const frame = document.createElement("iframe");
+    frame.src = `https://www.youtube-nocookie.com/embed/videoseries?list=${player.dataset.player}&autoplay=1&rel=0&playsinline=1`;
+    frame.title = "Latest Ready. Set. Monday. episode";
+    frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+    frame.allowFullscreen = true;
+    frame.referrerPolicy = "strict-origin-when-cross-origin";
+    player.classList.add("is-playing");
+    player.removeAttribute("href");
+    player.setAttribute("role", "group");
+    player.querySelector("img").replaceWith(frame);
+  });
+}
