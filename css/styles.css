@@ -250,7 +250,7 @@ h1 {
 }
 
 .intro {
-  padding: clamp(4.5rem, 10vw, 8rem) var(--gutter);
+  padding: clamp(3rem, 6vw, 5rem) var(--gutter);
   border-bottom: 1px solid var(--line);
 }
 
@@ -263,7 +263,7 @@ h1 {
 #intro-title {
   margin: 0;
   max-width: 14ch;
-  font-size: clamp(2.6rem, 5.4vw, 4.8rem);
+  font-size: clamp(2.2rem, 4.2vw, 3.6rem);
 }
 
 .lede {
@@ -274,7 +274,7 @@ h1 {
 
 .index {
   list-style: none;
-  margin: 3rem 0 0;
+  margin: 2rem 0 0;
   padding: 0;
   border-top: 1px solid var(--line);
 }
@@ -307,18 +307,48 @@ h1 {
 
 .index-name {
   margin-top: 0.2rem;
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
   letter-spacing: -0.04em;
   line-height: 1;
 }
 
+.section-photo {
+  margin: 0;
+  width: min(100%, 28rem);
+}
+
+.section-photo img {
+  display: block;
+  width: 100%;
+  height: 13.5rem;
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+.chapter-show .section-photo {
+  width: min(100%, 18rem);
+}
+
+.chapter-show .section-photo img {
+  height: 18rem;
+  object-position: center 35%;
+}
+
+.section-photo-portrait {
+  width: min(100%, 16rem);
+}
+
+.section-photo-portrait img {
+  height: 18rem;
+  object-position: center 18%;
+}
+
 .chapter {
-  min-height: 100svh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 4rem;
-  padding: clamp(1.5rem, 3vw, 2.5rem) var(--gutter) clamp(2rem, 5vw, 3.5rem);
+  justify-content: flex-start;
+  gap: 1.25rem;
+  padding: clamp(1.25rem, 2.4vw, 2rem) var(--gutter) clamp(1.5rem, 3vw, 2.4rem);
 }
 
 .chapter-ink {
@@ -348,7 +378,7 @@ h1 {
 
 .chapter-title {
   margin: 0;
-  font-size: clamp(2.7rem, 11vw, 10.5rem);
+  font-size: clamp(2.3rem, 6.5vw, 5.6rem);
 }
 
 .chapter-title em {
@@ -417,17 +447,17 @@ h1 {
 }
 
 .connect {
-  padding: clamp(4.5rem, 10vw, 8rem) var(--gutter) clamp(3rem, 6vw, 5rem);
+  padding: clamp(2.5rem, 5vw, 4rem) var(--gutter) clamp(2rem, 4vw, 3rem);
 }
 
 #connect-title {
-  margin: 0.8rem 0 0;
-  font-size: clamp(3rem, 7vw, 6rem);
+  margin: 0.9rem 0 0;
+  font-size: clamp(2.3rem, 5vw, 4rem);
 }
 
 .profiles {
   list-style: none;
-  margin: clamp(2.5rem, 6vw, 4.5rem) 0 0;
+  margin: clamp(1.5rem, 3vw, 2.4rem) 0 0;
   padding: 0;
   border-top: 1px solid var(--line-strong);
 }
@@ -437,7 +467,7 @@ h1 {
   grid-template-columns: 8rem minmax(0, 1fr) auto;
   gap: 1rem;
   align-items: baseline;
-  padding: clamp(1.4rem, 3vw, 2.2rem) 0;
+  padding: clamp(1rem, 2vw, 1.4rem) 0;
   border-bottom: 1px solid var(--line-strong);
   text-decoration: none;
 }
@@ -459,7 +489,7 @@ h1 {
 }
 
 .profiles-name {
-  font-size: clamp(2rem, 5vw, 4.2rem);
+  font-size: clamp(1.7rem, 3.4vw, 2.8rem);
   letter-spacing: -0.045em;
   line-height: 0.95;
 }
@@ -485,7 +515,7 @@ h1 {
 
 .footer-mark {
   margin: 0;
-  font-size: clamp(3rem, 8vw, 6.5rem);
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
 }
 
 .footer-note {
@@ -576,9 +606,6 @@ h1 {
     align-items: flex-start;
   }
 
-  .chapter {
-    min-height: 88svh;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
